@@ -110,9 +110,11 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full">
         <div className="flex justify-between items-center h-full">
           {/* Logo */}
-          <div className="flex-shrink-0">
-            <img className="h-8" src="/images/logo-hor.png" alt="Logo" />
-          </div>
+          <Link href="/" onClick={handleLinkClick} className="flex items-center">
+            <div className="flex-shrink-0">
+              <img className="h-8" src="/images/logo-hor.png" alt="Logo" />
+            </div>
+          </Link>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8 text-white">
