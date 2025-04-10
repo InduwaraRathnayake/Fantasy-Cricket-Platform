@@ -184,7 +184,7 @@ function TopPlayerCard({
   return (
     <div className="flex flex-col items-center justify-center p-4 sm:p-6 bg-blue-200/50 rounded-lg shadow-xl border border-cyan-500/60 transition-transform transform hover:scale-105">
       <img
-        src="https://www.shareicon.net/data/128x128/2016/06/27/787169_people_512x512.png"
+        src="/player.svg"
         alt="player"
         className="w-20 h-20 sm:w-32 sm:h-32 mb-2 sm:mb-3 rounded-full"
       />
