@@ -84,7 +84,7 @@ export default function PlayerCard({ player }: PlayerCardProps) {
 
       {/* Player Image */}
       <img
-        src="https://www.shareicon.net/data/128x128/2016/06/27/787169_people_512x512.png"
+        src="/player.svg"
         alt="Player"
         className="w-24 h-24 rounded-full mb-2"
       />
