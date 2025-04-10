@@ -192,7 +192,7 @@ export default function PlayerDetailPage() {
       <div className="max-w-xl mx-auto bg-white/10 border border-white/20 backdrop-blur-lg shadow-md rounded-lg p-4 sm:p-6">
         <div className="flex flex-col items-center mb-6">
           <img
-            src="https://www.shareicon.net/data/128x128/2016/06/27/787169_people_512x512.png"
+            src="/player.svg"
             alt="Players Icon"
             className="w-16 h-16 sm:w-20 sm:h-20 mb-4"
           />
